@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+h2{
+    text-align: center;
+}
+.searchbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    height: 40px;
+    width: 700px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0; /* Initially hidden */
+    transform: scale(0.9); /* Initially scaled down */
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out; /* Smooth transition */
+    visibility: hidden; /* Hide the element from the layout */
+}
+
+input.show {
+    opacity: 1; /* Make visible */
+    transform: scale(1); /* Reset scale */
+    visibility: visible; /* Allow it to be interacted with */
+}
+span{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
