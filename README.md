@@ -89,42 +89,4 @@ in your browser.
 
 No installation required.
 
-📁 Folder Structure
-project-name/
-│
-├── index.html
-├── style.css
-├── script.js
-Each project is organized separately for better understanding.
-
-🎯 Purpose of This Repository
-I created these projects to:
-
-Strengthen JavaScript fundamentals
-
-Improve UI/UX understanding
-
-Practice animations
-
-Build real-world mini projects
-
-Improve problem-solving skills
-
-🚀 Future Improvements
-Add more advanced projects
-
-Improve responsiveness
-
-Add better UI design
-
-Add detailed documentation for each project
-
-🤝 Contributions
-Feel free to fork this repository and suggest improvements via pull requests.
-
-⭐ Support
-If you like this repository, please give it a ⭐ on GitHub!
-
-🔥 Built with Passion for JavaScript
-
----
+```
